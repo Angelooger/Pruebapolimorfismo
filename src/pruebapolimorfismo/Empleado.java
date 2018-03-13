@@ -44,7 +44,7 @@ public abstract class Empleado {
     
     @Override
     public String toString(){
-        return String.format("%s %s %nNSS: %s",this.Nombre,this.Apellidos,this.nSS);
+        return String.format("%s %s %nNSS: %s",this.Nombre,this.Apellidos,this.nSS );
     }
     public abstract double ingresos();
 }
